@@ -1,4 +1,5 @@
 import { MapPin, GraduationCap, Mail } from "lucide-react";
+import clariePhoto from "@/assets/clarie-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -14,20 +15,32 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile Photo */}
+          <div className="opacity-0 animate-fade-in-up mb-8">
+            <div className="relative inline-block">
+              <div className="absolute inset-0 gradient-bg rounded-full blur-xl opacity-30 scale-110" />
+              <img
+                src={clariePhoto}
+                alt="Clarie Faith M. Almendral"
+                className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-card shadow-glow"
+              />
+            </div>
+          </div>
+
           {/* Greeting */}
-          <div className="opacity-0 animate-fade-in-up">
+          <div className="opacity-0 animate-fade-in-up animation-delay-200">
             <span className="inline-block px-4 py-2 mb-6 text-sm font-medium text-primary bg-primary/10 rounded-full border border-primary/20">
               👋 Welcome to my portfolio
             </span>
           </div>
 
           {/* Name */}
-          <h1 className="opacity-0 animate-fade-in-up animation-delay-200 font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
+          <h1 className="opacity-0 animate-fade-in-up animation-delay-400 font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
             Hi! I'm{" "}
             <span className="gradient-text">Clarie Faith</span>
           </h1>
 
-          <p className="opacity-0 animate-fade-in-up animation-delay-400 font-display text-2xl md:text-3xl font-semibold text-foreground/80 mb-8">
+          <p className="opacity-0 animate-fade-in-up animation-delay-600 font-display text-2xl md:text-3xl font-semibold text-foreground/80 mb-8">
             M. Almendral
           </p>
 
