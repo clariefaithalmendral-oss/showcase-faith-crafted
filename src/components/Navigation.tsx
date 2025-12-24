@@ -46,12 +46,6 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <a
-              href="mailto:aclariefaith@gmail.com"
-              className="px-4 py-2 gradient-bg text-primary-foreground text-sm font-medium rounded-full hover:shadow-glow transition-all duration-300"
-            >
-              Hire Me
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,12 +72,6 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <a
-              href="mailto:aclariefaith@gmail.com"
-              className="inline-block mt-4 px-6 py-3 gradient-bg text-primary-foreground font-medium rounded-full"
-            >
-              Hire Me
-            </a>
           </div>
         </div>
       )}

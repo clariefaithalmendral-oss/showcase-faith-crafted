@@ -10,10 +10,10 @@ const ContactSection = () => {
               📩 Contact Me
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">
-              Let's <span className="gradient-text">Connect</span>
+              Get in <span className="gradient-text">Touch</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Feel free to reach out if you'd like to connect or have any questions!
+              Feel free to reach out if you have any questions!
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const ContactSection = () => {
               className="inline-flex items-center gap-2 px-8 py-4 gradient-bg text-primary-foreground font-medium rounded-full shadow-glow hover:shadow-soft transition-all duration-300 hover:scale-105"
             >
               <Send className="w-5 h-5" />
-              Send a Message
+              Send Email
             </a>
           </div>
         </div>
