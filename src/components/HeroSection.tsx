@@ -30,29 +30,29 @@ const HeroSection = () => {
           {/* Greeting */}
           <div className="opacity-0 animate-fade-in-up animation-delay-200">
             <span className="inline-block px-4 py-2 mb-6 text-sm font-medium text-primary bg-primary/10 rounded-full border border-primary/20">
-              👋 Welcome to my portfolio
+              👋 Welcome to my profile
             </span>
           </div>
 
           {/* Name */}
           <h1 className="opacity-0 animate-fade-in-up animation-delay-400 font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            Hi! I'm{" "}
-            <span className="gradient-text">Clarie Faith</span>
+            Hi, I'm{" "}
+            <span className="gradient-text">Clarie!</span>
           </h1>
 
-          <p className="opacity-0 animate-fade-in-up animation-delay-600 font-display text-2xl md:text-3xl font-semibold text-foreground/80 mb-8">
-            M. Almendral
+          <p className="opacity-0 animate-fade-in-up animation-delay-600 font-display text-xl md:text-2xl font-medium text-foreground/80 mb-8">
+            Clarie Faith Almendral
           </p>
 
           {/* Info badges */}
           <div className="opacity-0 animate-fade-in-up animation-delay-600 flex flex-wrap justify-center gap-4 mb-12">
             <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-full shadow-soft border border-border/50">
-              <MapPin className="w-4 h-4 text-primary" />
-              <span className="text-sm text-muted-foreground">Mabitac, Laguna, Philippines</span>
+              <GraduationCap className="w-4 h-4 text-primary" />
+              <span className="text-sm text-muted-foreground">2nd Year BSIS Student</span>
             </div>
             <div className="flex items-center gap-2 px-4 py-2 bg-card rounded-full shadow-soft border border-border/50">
-              <GraduationCap className="w-4 h-4 text-primary" />
-              <span className="text-sm text-muted-foreground">BSIS Student</span>
+              <MapPin className="w-4 h-4 text-primary" />
+              <span className="text-sm text-muted-foreground">LSPU</span>
             </div>
           </div>
 

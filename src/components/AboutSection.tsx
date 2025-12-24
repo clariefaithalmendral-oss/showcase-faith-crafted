@@ -14,12 +14,9 @@ const AboutSection = () => {
 
           <div className="glass-card rounded-3xl p-8 md:p-12 border border-border/50">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
-              I am currently a <span className="text-foreground font-medium">BSIS student</span> who is passionate about technology, learning new skills, and building my career in the IT field. I enjoy exploring areas in{" "}
-              <span className="text-primary font-medium">information systems</span>,{" "}
-              <span className="text-primary font-medium">data management</span>,{" "}
-              <span className="text-primary font-medium">development</span>,{" "}
-              <span className="text-primary font-medium">design</span>, and{" "}
-              <span className="text-primary font-medium">problem-solving</span>.
+              I am a college student who is continuously learning and exploring the field of Information Systems. I am interested in how technology can be used to solve real-world problems{" "}
+              <span className="text-primary font-medium">through system development</span> and{" "}
+              <span className="text-primary font-medium">digital solutions</span>. This space serves as a record of my academic journey, projects, and growth as a student in the IT field.
             </p>
           </div>
         </div>

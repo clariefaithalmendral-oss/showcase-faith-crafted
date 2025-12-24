@@ -23,16 +23,16 @@ const EducationSection = () => {
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="px-3 py-1 text-xs font-medium text-primary bg-primary/10 rounded-full">
-                    Ongoing
+                    2nd Year College Student
                   </span>
                 </div>
                 <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2">
-                  Laguna State Polytechnic University
+                  Laguna State Polytechnic University (LSPU)
                 </h3>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <BookOpen className="w-4 h-4 text-primary" />
                   <p className="text-lg">
-                    Bachelor of Science in Information Systems (BSIS)
+                    Bachelor of Science in Information Systems
                   </p>
                 </div>
               </div>
