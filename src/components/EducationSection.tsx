@@ -1,4 +1,5 @@
-import { GraduationCap, BookOpen } from "lucide-react";
+import { BookOpen } from "lucide-react";
+import lspuLogo from "@/assets/lspu-logo.jpeg";
 
 const EducationSection = () => {
   return (
@@ -16,9 +17,11 @@ const EducationSection = () => {
 
           <div className="glass-card rounded-3xl p-8 md:p-12 border border-border/50">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-              <div className="w-20 h-20 gradient-bg rounded-2xl flex items-center justify-center shadow-glow flex-shrink-0">
-                <GraduationCap className="w-10 h-10 text-primary-foreground" />
-              </div>
+              <img 
+                src={lspuLogo} 
+                alt="LSPU Logo" 
+                className="w-20 h-20 rounded-2xl object-contain flex-shrink-0 bg-white p-1"
+              />
               
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
